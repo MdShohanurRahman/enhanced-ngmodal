@@ -12,7 +12,7 @@ Please review and adhere to our [Code of Conduct](CODE_OF_CONDUCT.md). We expect
 2. Clone your forked repository to your local machine.
 
    ```sh
-   https://github.com/MdShohanurRahman/enhanced-ng-modal
+   https://github.com/MdShohanurRahman/enhanced-ngmodal
 3. Create a new branch for your work.
    ```
    git checkout -b feature/your-feature-name

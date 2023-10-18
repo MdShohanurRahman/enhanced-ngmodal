@@ -19,7 +19,7 @@ Enhanced-ng-modal is an Angular-based project that simplifies the process of cre
 
 To get started with Enhanced-ng-modal, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/MdShohanurRahman/enhanced-ng-modal`
+1. Clone the repository: `git clone https://github.com/MdShohanurRahman/enhanced-ngmodal`
 2. Navigate to the project directory: `cd enhanced-ng-modal`
 3. Install the project dependencies: `npm install`
 4. Run the development server: `ng serve`
@@ -48,7 +48,7 @@ We welcome contributions to make Enhanced-ng-modal even better. Please check our
 
 ## Issues
 
-If you encounter any issues or have suggestions for improvements, please [open an issue](https://github.com/MdShohanurRahman/enhanced-ng-modal/issues) on GitHub.
+If you encounter any issues or have suggestions for improvements, please [open an issue](https://github.com/MdShohanurRahman/enhanced-ngmodal/issues) on GitHub.
 
 ---
 
