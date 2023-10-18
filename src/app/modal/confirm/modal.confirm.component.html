@@ -1,0 +1,18 @@
+<div class="modal-header">
+  <h5 class="modal-title">{{title}}</h5>
+  <button
+    type="button"
+    class="btn-close"
+    aria-label="Close"
+    (click)="dismiss()"
+  >
+    <span class="material-symbols-outlined">close</span>
+  </button>
+</div>
+<div class="modal-body">
+  {{ message }}
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-outline-primary btn-medium" (click)="decline()">{{ btnCancelText }}</button>
+  <button type="button" class="btn btn-primary btn-medium" (click)="accept()">{{ btnSubmitText }}</button>
+</div>

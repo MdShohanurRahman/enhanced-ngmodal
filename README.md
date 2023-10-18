@@ -1,27 +1,61 @@
-# EnhancedNgmodal
+# Enhanced-Ngmodal
+# Enhanced-ng-modal
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.5.
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.4.3-blue.svg)
+![Angular](https://img.shields.io/badge/Angular-16.2.0-red.svg)
 
-## Development server
+Enhanced-ng-modal is an Angular-based project that simplifies the process of creating and managing customizable modal dialogs in your web application. It leverages the power of the [ng-bootstrap](https://ng-bootstrap.github.io/) library to offer a wide range of modal styles and options.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+- Create confirmation dialogs with customizable titles and messages.
+- Display confirmation dialogs with warning and informational styles.
+- Open modal dialogs with different styles and behaviors.
+- Customize the appearance and behavior of modals using the `ModalConfigs` class.
+- Easily integrate and use modals in your Angular application.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Getting Started
 
-## Build
+To get started with Enhanced-ng-modal, follow these steps:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone the repository: `git clone https://github.com/MdShohanurRahman/enhanced-ng-modal`
+2. Navigate to the project directory: `cd enhanced-ng-modal`
+3. Install the project dependencies: `npm install`
+4. Run the development server: `ng serve`
 
-## Running unit tests
+This will start a local development server, and you can access the project in your web browser at `http://localhost:4200/`.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Usage
 
-## Running end-to-end tests
+The Enhanced-ng-modal project provides a `ModalService` that allows you to create and manage various types of modals. To learn more about using the service and available options, refer to the [documentation](docs/ModalServiceDocumentation.md).
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Documentation
 
-## Further help
+For in-depth information on how to use Enhanced-ng-modal, please check the [documentation](docs/).
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- [ng-bootstrap](https://ng-bootstrap.github.io/): The project utilizes the ng-bootstrap library for creating and managing modals.
+
+## Contributing
+
+We welcome contributions to make Enhanced-ng-modal even better. Please check our [contribution guidelines](CONTRIBUTING.md) for more details on how to get involved.
+
+## Issues
+
+If you encounter any issues or have suggestions for improvements, please [open an issue](https://github.com/MdShohanurRahman/enhanced-ng-modal/issues) on GitHub.
+
+---
+
+**Author:** MD SHOHANUR RAHMAN SHOHAN
+
+**Version:** 1.0
+
+**Date:** 18-10-23
+
+**License:** MIT License

@@ -1,0 +1,27 @@
+<div class="modal-header">
+  <h5 class="modal-title">{{title}}</h5>
+  <button
+    type="button"
+    class="btn-close"
+    aria-label="Close"
+    (click)="dismiss()"
+  >
+    <span class="material-symbols-outlined">close</span>
+  </button>
+</div>
+<div class="modal-body">
+  <div *ngIf="bodyContent">
+    <ng-container #bodyContainer></ng-container>
+  </div>
+  <div *ngIf="!bodyContent">
+    <ng-container>modal body goes here</ng-container>
+  </div>
+</div>
+
+<div class="modal-footer">
+  <ng-container *ngIf="footerContent; else defaultContent" #footerContainer></ng-container>
+  <ng-template #defaultContent>
+    <button type="button" class="btn btn-outline-primary btn-medium" (click)="cancel()">{{ btnCancelText }}</button>
+    <button [disabled]="submitBtnDisabled" type="button" class="btn btn-primary btn-medium" (click)="submit()">{{ btnSubmitText }}</button>
+  </ng-template>
+</div>
