@@ -135,7 +135,7 @@ modalService.open("Edit Profile", {
 
 #### Description
 
-The `ModalConfigs` interface is used to configure custom modal dialogs in the Enhanced-ng-modal project. It extends `NgbModalOptions`, which are options provided by the [ng-bootstrap](https://ng-bootstrap.github.io/) library, and includes additional properties to customize the appearance and behavior of the modal.
+The `ModalConfigs` interface is used to configure custom modal dialogs in the Enhanced-Ngmodal project. It extends `NgbModalOptions`, which are options provided by the [ng-bootstrap](https://ng-bootstrap.github.io/) library, and includes additional properties to customize the appearance and behavior of the modal.
 
 #### Properties
 
@@ -154,7 +154,7 @@ The `ModalConfigs` interface is used to configure custom modal dialogs in the En
 
 #### Description
 
-The `ModalContent` interface represents a contract that components should adhere to when implementing a custom dialog in the Enhanced-ng-modal project. It defines specific properties and methods that custom modal components must have.
+The `ModalContent` interface represents a contract that components should adhere to when implementing a custom dialog in the Enhanced-Ngmodal project. It defines specific properties and methods that custom modal components must have.
 
 #### Properties
 
@@ -168,7 +168,7 @@ The `ModalContent` interface represents a contract that components should adhere
 
 ### **Usage**
 
-To create a custom modal in your Enhanced-ng-modal project, you should:
+To create a custom modal in your Enhanced-Ngmodal project, you should:
 
 1. Create a component that implements the `ModalContent` interface.
 

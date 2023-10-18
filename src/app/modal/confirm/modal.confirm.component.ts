@@ -5,6 +5,7 @@ import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
   standalone: true,
   selector: 'modal-confirm',
   templateUrl: 'modal.confirm.component.html',
+  styleUrls: ['modal.confirm.component.css']
 })
 export class ModalConfirmComponent implements OnInit {
 

@@ -16,7 +16,8 @@ import {CommonModule} from "@angular/common";
   imports: [
     CommonModule
   ],
-  templateUrl: 'modal.component.html'
+  templateUrl: 'modal.component.html',
+  styleUrls: ['./modal.component.css']
 })
 export class ModalComponent implements OnInit, AfterViewInit {
 

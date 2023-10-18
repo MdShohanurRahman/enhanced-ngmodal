@@ -1,11 +1,10 @@
 # Enhanced-Ngmodal
-# Enhanced-ng-modal
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 ![TypeScript](https://img.shields.io/badge/TypeScript-4.4.3-blue.svg)
 ![Angular](https://img.shields.io/badge/Angular-16.2.0-red.svg)
 
-Enhanced-ng-modal is an Angular-based project that simplifies the process of creating and managing customizable modal dialogs in your web application. It leverages the power of the [ng-bootstrap](https://ng-bootstrap.github.io/) library to offer a wide range of modal styles and options.
+Enhanced-Ngmodal is an Angular-based project that simplifies the process of creating and managing customizable modal dialogs in your web application. It leverages the power of the [ng-bootstrap](https://ng-bootstrap.github.io/) library to offer a wide range of modal styles and options.
 
 ## Features
 
@@ -17,10 +16,10 @@ Enhanced-ng-modal is an Angular-based project that simplifies the process of cre
 
 ## Getting Started
 
-To get started with Enhanced-ng-modal, follow these steps:
+To get started with Enhanced-Ngmodal, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/MdShohanurRahman/enhanced-ngmodal`
-2. Navigate to the project directory: `cd enhanced-ng-modal`
+2. Navigate to the project directory: `cd enhanced-ngmodal`
 3. Install the project dependencies: `npm install`
 4. Run the development server: `ng serve`
 
@@ -28,11 +27,11 @@ This will start a local development server, and you can access the project in yo
 
 ## Usage
 
-The Enhanced-ng-modal project provides a `ModalService` that allows you to create and manage various types of modals. To learn more about using the service and available options, refer to the [documentation](docs/ModalServiceDocumentation.md).
+The Enhanced-Ngmodal project provides a `ModalService` that allows you to create and manage various types of modals. To learn more about using the service and available options, refer to the [documentation](docs/ModalServiceDocumentation.md).
 
 ## Documentation
 
-For in-depth information on how to use Enhanced-ng-modal, please check the [documentation](docs/).
+For in-depth information on how to use Enhanced-Ngmodal, please check the [documentation](docs/).
 
 ## License
 
@@ -44,7 +43,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contributing
 
-We welcome contributions to make Enhanced-ng-modal even better. Please check our [contribution guidelines](CONTRIBUTING.md) for more details on how to get involved.
+We welcome contributions to make Enhanced-Ngmodal even better. Please check our [contribution guidelines](CONTRIBUTING.md) for more details on how to get involved.
 
 ## Issues
 

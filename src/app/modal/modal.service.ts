@@ -106,9 +106,25 @@ export class ModalService {
       title,
       {
         ...configs,
-        centered: true,
-        modalDialogClass: 'qr-modal-right',
-        backdropClass: 'qr-modal-right-backdrop',
+        modalDialogClass: 'app-modal-right',
+        backdropClass: 'ap-modal-right-backdrop',
+      },
+      submitCallback,
+      cancelCallback
+    )
+  }
+
+  public openLeft(
+    title: string,
+    configs?: ModalConfigs,
+    submitCallback?: (modalRef: NgbModalRef) => void,
+    cancelCallback?: (modalRef: NgbModalRef) => void): void {
+    this.open(
+      title,
+      {
+        ...configs,
+        modalDialogClass: 'app-modal-left',
+        backdropClass: 'ap-modal-left-backdrop',
       },
       submitCallback,
       cancelCallback

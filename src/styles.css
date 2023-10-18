@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+.app-modal-left .modal-content {
+  -webkit-transform: translate(-25%,0)scale(1);
+  transform: translate(-25%,0)scale(1);
+}
+
+.app-modal-right .modal-content {
+  -webkit-transform: translate3d(25%, 0, 0);
+  transform: translate3d(25%, 0, 0);
+}

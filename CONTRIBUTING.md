@@ -1,6 +1,6 @@
-# Contributing to Enhanced-ng-modal
+# Contributing to enhanced-ngmodal
 
-We welcome contributions from the community to make Enhanced-ng-modal better! Whether it's bug fixes, feature enhancements, documentation improvements, or any other type of contribution, we appreciate your help. Before you get started, please take a moment to review the guidelines below.
+We welcome contributions from the community to make Enhanced-ngmodal better! Whether it's bug fixes, feature enhancements, documentation improvements, or any other type of contribution, we appreciate your help. Before you get started, please take a moment to review the guidelines below.
 
 ## Code of Conduct
 
@@ -41,4 +41,4 @@ By contributing to this project, you agree that your contributions will be licen
 ## Contact
 If you have questions or need further assistance, feel free to reach out to us through the project's GitHub issues or contact us at [shohan.drmc@gmail.com].
 
-Thank you for contributing to enhanced-ng-modal! Your help is greatly appreciated.
+Thank you for contributing to enhanced-ngmodal! Your help is greatly appreciated.
